@@ -1,0 +1,59 @@
+.gallery-title{
+    text-align: center;
+    font-size:80px;
+    opacity: 0.5;
+}
+.math{
+    margin-top:50px;
+    margin-left: 20px;
+    display: flex;
+    width: 100%;
+
+}
+.math img {
+    width: 600px;
+    height: 400px;
+    margin-right: 100px;
+}
+.services-title{
+    font-size:50px;
+}
+.services-sample{
+    margin-right: 30px;
+    background-color: #6b6b79;
+    font-size:25px;
+    color: rgb(0, 0, 0);
+    padding:10px;
+}
+.gallery-photos img{
+    width: 450px;
+    height:450px;
+}
+.gallery-photos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+.motiv-title{
+    font-size:70px;
+    opacity: 0.4;
+}
+.success-img{
+    filter:blur(3px);
+    margin-left:70px;
+    width:1200px;
+    height:150px;
+}
+.title-service{
+    text-align:right;
+    margin-right: 100px;
+    font-size:70px;
+    opacity: 0.4;
+}
+.all-services{
+    display: flex;
+    margin-left: 100px;
+}
+.all-services img{
+    margin-right: 50px;
+}
