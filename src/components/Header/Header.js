@@ -5,22 +5,27 @@ import './Header.css';
 const Header = () => {
     return (
         <div className="header-part">
+            <div className="navbar-top">
+                <Button className="login" variant="outline-primary">Login</Button>
+                <Button className="register" variant="outline-primary">Sign Up</Button>
 
-            <Button className="login" variant="outline-primary">Login</Button>
-            <Button className="register" variant="outline-primary">Sign Up</Button>
+                <nav className="menubar">
 
-            <nav className="menubar">
-
-                <NavLink to="/dashboard">Home</NavLink>
-                <NavLink to="/services">Services</NavLink>
-                <NavLink to="/teachers">Teachers</NavLink>
-                <NavLink to="/about">About Us</NavLink>
+                    <NavLink to="/dashboard">Home</NavLink>
+                    <NavLink to="/services">Services</NavLink>
+                    <NavLink to="/teachers">Teachers</NavLink>
+                    <NavLink to="/about">About Us</NavLink>
 
 
-            </nav>
+                </nav>
+            </div>
+            <br />
+            <br />
+            <br />
+            <br />
             <div className="header-part2">
+
                 <h1 className="math-error">Math Error</h1>
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRd388FFTH5b9djNT8ndkjVrzn2O2DW8-uQ_w&usqp=CAU" alt="" />
             </div>
 
         </div>

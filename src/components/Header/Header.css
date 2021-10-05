@@ -2,16 +2,22 @@
     text-decoration: none;
 }
 .header-part{
-    height:500px;
-    background-image: url('../../images/bg.jpg');
+    height:700px;
+    background-image: url('../../images/bg.jfif');
     background-size: cover;
     background-repeat: no-repeat;
-    margin-left:  20px;
-    margin-right: 20px;
  
+}
+.navbar-top{
+ 
+    background-color: blue;
+    height:100px;
+    position: fixed;
+   width:220vh;
 }
 
 .menubar{
+  
     text-align:right;
     font-weight: 500;
     font-size: 20px;

@@ -57,3 +57,8 @@
 .all-services img{
     margin-right: 50px;
 }
+.media-img{
+    width: 210vh;
+    height: 150px;
+    margin-bottom: 20px;
+}

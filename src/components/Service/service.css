@@ -1,0 +1,14 @@
+.services-card{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 15px;
+    margin-left: 20px;
+}
+.all-programs{
+    font-size:80px;
+    color: rgb(0, 2, 90);
+    opacity: 0.3;
+}.hsc-program{
+    font-size:50px;
+    margin-left: 500px;
+}
